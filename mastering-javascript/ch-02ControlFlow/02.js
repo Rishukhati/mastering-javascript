@@ -127,32 +127,61 @@ function myFunction(p1,p2) {
     return p1 * p2 ;
 
 }
+// console.log(myFunction(2, 4));
 
 let x = myFunction(4,3)
 console.log(x);
 
-// Function Declaration 
-function sayhello (username) {
-  console.log(`Hello ${username}`);
-}
+// Function Declaration
 
 sayhello("HuXn");
+
+function sayhello (username) {
+console.log(`Hello ${username}`);
+}
+
 
 // Function Expression 
 const greetings =function (user) {
   console.log(`Hello ${user}`);
-
+  
 }
-
 greetings("jhon")
+
 
 // Callback function
 
 function showCallFunc(fn){
-  const hold = 10;
- fn(hold);
+  const value = 10;
+ fn(value);
 }
 
 showCallFunc(function (value){
   console.log(value);
 })
+
+
+let textmsg = "hi";     //global variable access from any were in project
+console.log(textmsg);
+
+function showmsg() {
+  let textmsg = "hello"; // local var it can only access from inside {}
+  console.log(textmsg);
+}
+showmsg ();
+
+// setInterval and setTimeout
+
+const intervalId = setInterval(() => {
+  console.log('this function is being executed at the interval');
+
+}, 1000);
+
+// stop interval in 10 seconds
+setTimeout(() => {
+  clearInterval(intervalId)
+  console.log('Interval stoppedddd');
+}, 10000);
+
+console.log('hello');
+
