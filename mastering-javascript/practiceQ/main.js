@@ -48,3 +48,24 @@ let z = 10, y = 7;
 if (z > y) console.log("z is greater");
 else console.log("y is greater");
 
+// Q8- Write a switch statement for day = 1 that prints "Monday" for 1, "Tuesday" for 2, otherwise "Other day".
+
+let day = 1;
+
+switch (day) {
+  case 1:
+    console.log("Monday");
+    break;
+  case 2:
+    console.log("Tuesday");
+    break;
+  default:
+    console.log("Other day");
+}
+
+for (let i= 0;  i<=5; i++){
+    console.log(i);
+}
+
+
+
