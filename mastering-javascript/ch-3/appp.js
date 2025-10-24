@@ -36,11 +36,28 @@
 // console.log(res);
 // console.log(getPersionES5("HuXn" , 13, 200));
 
-function countTo5(count) {
-    if (count === true) {
-        for (let i = 1; i<=5 ; i++){
-            console.log(`count: ${i}`);
-        }
-    }
-}
-countTo5(true);
+// Default Parameters
+
+// function countTo5(count) {
+//     if (count === true) {
+//         for (let i = 1; i<=5 ; i++){
+//             console.log(`count: ${i}`);
+//         }
+//     }
+// }
+// countTo5(true);
+
+// Spread Operator
+
+const num = [1 , 2 ,3 , 4];
+const favThing = ['travel' , 'bike' ,'eating','exploring'];
+
+const sumUp = [...num , ...favThing];
+console.log(sumUp);
+
+const user = {
+    name : 'rishu',
+    age : 20,
+};
+const cloneUser = {...user};
+console.log(cloneUser);

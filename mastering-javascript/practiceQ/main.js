@@ -67,5 +67,11 @@ for (let i= 0;  i<=5; i++){
     console.log(i);
 }
 
+// Q9- spread operator.Combine two arrays —
+// colors = ['red', 'green'] and shades = ['light', 'dark'] —
 
+const colors = ['red' , 'green' ];
+const shades = ['light' , 'dark'];
 
+const concat = [...colors , ...shades];
+console.log(concat);
