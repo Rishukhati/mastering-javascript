@@ -154,3 +154,10 @@ for (let number in object) {
         // console.log(`${number}: ${object[number]}`);
         console.log(number , object[number]);
 }
+
+// for off loop
+const array1 =['a', 'b','c'];
+
+for (const element of array1){
+    console.log(element);
+}
