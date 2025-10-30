@@ -15,8 +15,8 @@
 
 // 4. querySelector
 // tagname -- normal write ""
-// id -- .nameofid
-// class -- #namrofclass
+// id -- #nameof id
+// class -- .nameof class
 
 console.log(document.querySelector(".cls"));
 
