@@ -3,9 +3,12 @@ Here, you’ll find all the resources, courses, and practice questions that help
 
 Resources--
 
-
 YouTube Channels / Videos
-1 - HuXn WebDev - https://www.youtube.com/watch?v=H3XIJYEPdus&t=3254s this 
+1 - HuXn WebDev - https://www.youtube.com/watch?v=H3XIJYEPdus&t=3254s this
 is the best course i found on internet for me. I try many course nut this one work for me.
 
 ChatGPT – I use ChatGPT to practice JavaScript problems, clarify concepts, and get real-time feedback on my code
+
+GithHub repo link to clone it --
+HTTPS - https://github.com/HuXn-WebDev/Zero-To-FullStack-JS-Course.git
+GitHub CLI -- gh repo clone HuXn-WebDev/Zero-To-FullStack-JS-Course
